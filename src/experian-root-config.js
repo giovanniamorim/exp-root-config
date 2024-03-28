@@ -30,12 +30,12 @@ registerApplication({
 });
 
 
-// registerApplication({
-//   name: "@experian/exp-checkout-mf",
-//   app: () =>
-//     System.import("@experian/exp-checkout-mf"),
-//     activeWhen: ["/checkout"],
-// });
+registerApplication({
+  name: "@experian/exp-checkout-mf",
+  app: () =>
+    System.import("@experian/exp-checkout-mf"),
+    activeWhen: ["/checkout"],
+});
 
 registerApplication({
   name: "@experian/exp-cart-mf",
